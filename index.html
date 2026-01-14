@@ -11,6 +11,50 @@
     a { color: #1976D2; text-decoration: none; }
     a:hover { text-decoration: underline; }
     footer { margin-top: 40px; color: #777; font-size: 0.9em; }
+    
+    /* === レビューボックス === */
+  .review-box {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 25px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .review-box h3 {
+    color: #2c3e50;
+    margin-top: 0;
+  }
+  .review-box .rating {
+    color: #f39c12;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* === ボタン === */
+  .cta-button {
+    display: inline-block;
+    background: #e74c3c;
+    color: white !important;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .cta-button:hover {
+    background: #c0392b;
+    text-decoration: underline;
+  }
+
+  /* === 吹き出し（おすすめポイント）=== */
+  .tips {
+    background: #e8f4fc;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 0 4px 4px 0;
+  }
   </style>
 </head>
 <body>
@@ -30,6 +74,17 @@
     <a href="https://example.com" target="_blank" rel="noopener">楽天市場でチェック（例）</a>
   </div>
 
+  <div class="review-box">
+  <h3>【ID Hospital】目元整形の口コミ</h3>
+  <div class="rating">★★★★★ 4.8/5</div>
+  <p>自然な仕上がりで、カウンセリングも丁寧でした。日本語通訳も対応可能。</p>
+  <a href="https://example.com" class="cta-button" target="_blank" rel="noopener">公式サイトで確認</a>
+</div>
+
+<div class="tips">
+  💡 <strong>ポイント</strong>：初回カウンセリングは無料！事前予約が必須です。
+</div>
+  
   <footer>
     &copy; 2026 My Review Site
   </footer>
